@@ -1,4 +1,3 @@
-# Step 1: Players
 from random import choice
 players = []
 file = open('players.txt', 'r')
@@ -27,13 +26,3 @@ while len(players) > 0:
 print('Team A:', teamA)
 print('Team B:', teamB)
 
-
-
-
-
-
-
-
-
-
-# Step 2: Random Players
