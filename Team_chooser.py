@@ -1,11 +1,12 @@
+#Import the 'random' module
 from random import choice
 players = []
 file = open('players.txt', 'r')
 players = file.read().splitlines()
 print(players)
 
-teamA = []
-teamB = []
+teamA = [] #TeamA
+teamB = [] #TeamB
 
 while len(players) > 0:
     playerA = choice(players)
