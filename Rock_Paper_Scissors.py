@@ -18,7 +18,8 @@ else:
 print('computer has choosen ', computer)
 
 
-print(player, 'vs', end=' ')
+print(player, 'vs', end=' ') #Match
+
 
 if player == computer: # if statement compare the both value of 'player' and 'computer'
     print('DRAW!')
