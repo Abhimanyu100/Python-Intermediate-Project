@@ -5,10 +5,10 @@ player = input('rock (r), paper (p) or Scissors (s)? :') #print on the screen to
 
 print(player, 'vs')
 
-chosen = randint(1, 3)
+chosen = randint(1, 3) //randint choose number between 1 and 3.
 print(chosen)
 
-if chosen == 1:
+if chosen == 1: //condition apply
     computer = 'r'
 elif chosen == 2:
     computer = 'p'
